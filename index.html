@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Loteria</title>
+	<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/estilos.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arsenal:ital@1&family=Nerko+One&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+
+	<header>
+		<div>
+			<img class="header--logo" src="assets/loteria.jpg" alt="">
+		</div>
+
+
+	</header>
+	<main>
+		<h2>Compra tu boleto!</h2>
+		<div class="contenido">
+			<div class="contenido--personal">
+				<p>Nombres</p>
+				<input type="text" id="nombre" placeholder="Benito" />
+				<p> Apellidos:</p>
+				<input type="text" id="apellido" placeholder="Camelas">
+				<p> Edad: </p>
+				<input type="number" id="edad" placeholder="99">
+			</div>
+			<div class="contenido--direction">
+				<p> Dirección de residencia:</p>
+				<input type="text" id="dir" placeholder="Av. Siempreviva 742"/>
+				<p> Telefono: </p>
+				<input type="number" id="tel" placeholder="123456" />
+			</div>
+			<div class="contenido--apuesta">
+				<p> Número de apuesta </p>
+				<input type="text" class="num-apostado" id="num1" maxlength="6" />
+				<p>Confirmar número</p>
+				<input type="text" class="num-apostado" id="num2" maxlength="6" />
+			</div>
+
+			<div class="buttons">
+				<button id="comprar" onclick="newCompra()">Confirmar compra</button>
+				<button id="test" onclick="abc()"> Jugar </button>
+			</div>
+
+	</main>
+
+	<p>Ganadores</p>
+	<p id="prueba"></p>
+
+	
+
+
+		<script src="script.js"></script>
+</body>
+
+</html>
