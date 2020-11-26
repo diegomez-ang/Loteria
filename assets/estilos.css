@@ -36,4 +36,54 @@ input{
 }
 .buttons{
 	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	
+	width: 300px;
+	
 }
+
+#comprar{
+	border: none;
+	background-color: #DA121A;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: 'Arsenal', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+#test{
+	width: 100px;
+	border-radius: 5px;
+	font-family: 'Arsenal', sans-serif;
+	border: none;
+	background-color: #DA121A;
+	font-size: 20px;
+	color: white;
+}
+
+.ganador{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.ganador--g{
+	font-size: 80px;
+	font-family: 'Arsenal', sans-serif;
+	font-weight: bolder;
+}
+#nombreg{
+	font-size: 50px;
+	font-family: 'Arsenal', sans-serif;
+	font-weight: bolder;
+	color: #DA121A;
+}
+#apellidog{
+	font-size: 40px;
+	font-family: 'Arsenal', sans-serif;
+	font-weight: bolder;
+	color: #42990C;
+}
+
